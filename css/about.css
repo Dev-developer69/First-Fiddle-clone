@@ -1,0 +1,46 @@
+.weblogo{
+    width: 60px;
+}
+.navbar{
+    background: #00000082 !important;
+}
+.navbar ul li a{
+    color: white;
+    font-weight: lighter;
+}
+.navbar ul li :hover{
+    background-color: orange;
+}
+
+.a{
+    background: url(/bootstrap/web/img/ourimage.jpg);
+    height: 620px;
+    /* width: 100%; */
+    background-position: center;
+    background-size:     cover;
+
+}
+.b{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: justify;
+}
+/* background image */
+.c{
+    background: url(/bootstrap/web/img/gamebanner.jpg);
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    background-size:     cover;
+
+}
+/* next container */
+.aa{
+    line-height: 35px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding-top: 140px;
+    padding-right: 5px;
+    color: white;
+}

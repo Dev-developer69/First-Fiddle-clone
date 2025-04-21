@@ -1,0 +1,90 @@
+.img123{
+    width: 80%;
+  }
+  .a{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+  }
+
+.b {
+      line-height: 35px;
+      letter-spacing: 1px;
+      word-spacing: 1px;
+      padding-right: 5px;
+      text-align: justify;
+  }
+  
+  @media (max-width:768px) {
+    .img123{
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
+  .c{
+    background-image: url(/bootstrap/web/img/media\ mention.jpg);
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+  }
+  .d{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+  }
+  .e{
+      line-height: 40px;
+      letter-spacing: 1px;
+      word-spacing: 1px;
+      padding-right: 5px;
+      margin-top: 10px;
+      text-align: center;
+  }
+  .btn .btn-info
+  {
+    background-color: orange;
+
+
+
+  }
+  footer
+  {
+    background-color:#111215;
+    height: 500px;
+    color: white;
+  }
+  .icons
+{
+  font-size: 40px;
+  
+}
+i{
+  color: orange;
+}
+.e{
+ /* background-color:   #212529; */
+ color: white;
+}
+section{
+  background-color: #212529;
+}
+.moblogo{
+  display: none;
+}
+@media (max-width : 768px){
+  .weblogo{
+    display: none;
+  }
+  .moblogo{
+    display: block;
+    width: 60px;
+  }
+  .navbar{
+    background-color: yellow !important;
+  }
+}
